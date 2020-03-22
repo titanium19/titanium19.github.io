@@ -1,0 +1,207 @@
+:root {
+	--text-color-green:#9AB59D;
+	--text-color-hover:#FFDA8E;
+	--text-color:#333128;
+}
+
+.project-container {
+  	max-width: 900px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+@media(max-width: 600px){
+	.project-container{
+		width: 85%;
+	}
+}
+
+
+/* Ssense Redesign Project */
+.project-1-cover{
+	width: 100vw;
+	height: 30em;
+	background: linear-gradient(white, #98b59d);
+}
+
+.project-space{
+	margin-top: 12em;
+}
+
+.project-detail-title{
+  	letter-spacing: .08em;
+ 	font-weight: 600;
+  	font-size: 2.1em;
+  	margin: 1em 0 1.5em 0;
+  	color: white;
+}
+
+.project-detail-category{
+	letter-spacing: .08em;
+	font-size: 1em;
+   	font-weight: 500;
+   	margin: 2em 0;
+   	color: white;
+}
+
+.case-study-link{
+	text-decoration: none;
+	padding: 1.2em 3.1em;
+	background-color: rgb(226, 231, 200);;
+	color: var(--text-color-green);
+	font-size: 0.9em;
+	letter-spacing: .08em;
+	font-weight: 600;
+	border-radius: .6em;
+}
+
+.case-study-link:hover{
+	color: white;
+	background-color: var(--text-color-hover);
+}
+
+.project-space-image{
+	margin-top: 10em;
+}
+
+.project-space-image img{
+	max-width: 100%;
+	animation: flyin 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;;
+}
+
+@keyframes flyin{
+	0%{
+		transform:translateY(50px);
+		transform:translateY(50px);
+		opacity:0
+	}
+	100%{
+		transform:translateY(0);
+		transform:translateY(0);
+		opacity:1
+	}
+}
+
+@media(max-width: 600px){
+	.project-space{
+		margin-top: 6em;
+	}
+	.project-space-image{
+		margin-top: 2.5em;
+	}
+	.project-detail-title{
+		font-size: 1.8em;
+		margin: 0.5em 0 1.2em 0;
+	}
+	.project-detail-category{
+		margin:1em 0;
+	}
+	.case-study-link{
+		padding: 1em 3.1em;
+	}
+	.project-space-image img{
+		width: 100%;
+	}
+}
+
+.role-title{
+	color: var(--text-color);
+	padding-top: 4.5em;
+	letter-spacing: .2em;
+	font-weight: 400;
+}
+
+hr.role-line{
+	color: grey;
+	opacity: 0.5;
+	display: block;
+}
+
+.role-detail ul{
+	padding-left: 1em;
+}
+
+.role-detail ul li{
+	padding: 0.3em 0;
+	font-size: 0.9em;
+}
+
+.role-hide{
+	display: none;
+}
+
+@media(max-width: 600px){
+	.role-title{
+		padding-top: 2em;
+	}
+	.role-detail ul li{
+		display: none;
+	}
+	.role-hide{
+		display: block;
+		line-height: 1.6em;
+		padding-top: 0.7em;
+		font-weight: 500;
+	}
+}
+
+.role-detail div{
+	line-height: 1.6em;
+	padding-top: 0.7em;
+	font-weight: 500;
+}
+
+.production-image{
+	width: 100%;
+	padding: 3em 0 1em 0;
+}
+
+.project-section{
+	padding-top: 2em;
+}
+
+.project-content-title{
+	color: var(--text-color-green);
+	font-weight: 700;
+	letter-spacing: .2em;
+	line-height: 1.6em;
+	font-size: 1.1em;
+	padding:0.25em 0 0 0;
+}
+
+hr.mobile-display{
+	color: grey;
+	opacity: 0.5;
+}
+
+.mobile-display{
+	display: none;
+}
+
+.mobile-hide{
+	display: block;
+}
+
+@media(max-width: 600px){
+	.mobile-display{
+		display: block;
+	}
+	.mobile-hide{
+		display: none;
+	}
+}
+
+.project-content-main{
+	line-height: 1.5em;
+}
+
+.paragraph-padding{
+	padding: 0.5em 0;
+}
+
+b{
+	font-weight: 600;
+}
+
+
+
